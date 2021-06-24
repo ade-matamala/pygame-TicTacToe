@@ -2,7 +2,6 @@ import pygame #imports pygame, user interface
 import numpy as np #imports numpy, background code
 pygame.init() #initializes the game
 pygame.font.init() #initializes fonts
-myfont = pygame.font.SysFont("monospace", 15)
 
 win = pygame.display.set_mode((550,550)) #creates the window
 
