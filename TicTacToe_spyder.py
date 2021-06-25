@@ -276,7 +276,6 @@ while run: #while the game runs
                 else:
                     pygame.draw.circle(win, (0,255,0), (450,450),50)
                     play(2,(2,2),board)
-
                     print(board)
                     draw_object = 'rect'
                 s8_open = False
